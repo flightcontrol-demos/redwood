@@ -1,11 +1,13 @@
 {
   "environments": [
     {
-      "id": "development",
-      "name": "Development",
-      "region": "us-east-2",
+      "id": "redwood",
+      "name": "RedwoodJs Demo",
+      "region": "us-east-1",
       "source": {
-        "branch": "main"
+        "branch": "main",
+        "pr": false,
+        "trigger": "push",
       },
       "services": [
         {
